@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.fondo{
+	background-image: url("Imagenes/Leyes.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 50px;
+}
+header{
+	text-align: center;
+	height: 50px;
+	background-color:    #2a2727   ;
+	margin: 0;
+	color: #fff;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+	height: 110px;
+	color: #fff;
+	text-align: center;
+
+}
+
+ul{
+	list-style: none;
+
+}
+li{
+	display: inline;/* el li es un elemento en bloque como nestor*/
+	margin: 5px;
+
+}
+.medio{
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	top: 75%;
+	margin-left:-50px;
+}
+
+.lista-li{
+	display: block;
+}
+.social{
+	position:absolute;
+	left: 10px;
+	margin:25px;
+	
+	
+}
+
+.nombre{
+	margin-top: 5px;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 25px;
+
+}
+.nombre h5{
+	padding: 5px;
+}
+.reloj{
+	position:absolute;
+	right: 10px;
+	top: 8px;
+}
+
+.widget p{
+	display: inline-block;
+	line-height: 1em;
+}
+.fecha{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 2px;
+	width: 100%;
+}
+.hora{
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+}
+.hora .caja-segundos{
+	display: inline-block;
+
+}
+.reloj .segundos,.reloj .ampm{
+	font-size: 0.5em;
+	display: block;
+	margin: 1px;
+}
+.elec{
+	position: absolute;
+	width: 20px;
+	left:  10px;
+	top:0px;
+	font-size: 30px;
+	
+}
+.termo{
+	position: absolute;
+	width: 20px;
+	right: 200px;
+	top:0px;
+	font-size: 30px;
+	
+}
